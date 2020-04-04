@@ -1,0 +1,1 @@
+# gitlab-linter-cli
