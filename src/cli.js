@@ -1,4 +1,5 @@
 import minimist from 'minimist';
+import { config } from './config';
 import { help } from './help';
 import { version } from './version';
 
@@ -15,6 +16,10 @@ export async function cli(argsArray) {
     }
 
     switch (cmd) {
+        case 'config':
+            config(args);
+            break;
+
         case 'help':
             help(args);
             break;
