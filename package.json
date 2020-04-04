@@ -29,6 +29,7 @@
   "homepage": "https://github.com/asadmansr/gitlab-linter-cli#readme",
   "dependencies": {
     "chalk": "^4.0.0",
+    "conf": "^6.2.1",
     "esm": "^3.2.25",
     "minimist": "^1.2.5"
   }

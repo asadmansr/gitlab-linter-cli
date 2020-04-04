@@ -6,10 +6,17 @@ ${chalk.black('GitLab Linter CLI (1.0.0) - a linter to validate GitLab CI pipeli
 
 ${chalk.gray('gitlab-linter [command]')}
 
-    ${chalk.blueBright('help (-h)')} ............... show help
-    ${chalk.blueBright('version (-v)')} ............ print package version
-    
-    `
+    ${chalk.blueBright('config')}        ............... set configuration
+    ${chalk.blueBright('help <option>')} ............... show help for a command (-h)
+    ${chalk.blueBright('version')}       ............... print package version (-v)
+    `,
+
+    config: `
+${chalk.gray('gitlab-linter config <option>')}
+
+    ${chalk.blueBright('--host')}  ........ set GitLab URL host. [Required]
+    ${chalk.blueBright('--print')} ........ print current configuration.
+    `,
 }
 
 export async function help(args) {
