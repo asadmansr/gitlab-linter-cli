@@ -1,0 +1,35 @@
+{
+  "name": "gitlab-linter-cli",
+  "version": "1.0.0",
+  "description": "A CLI to validate GitLab CI yaml files.",
+  "main": "index.js",
+  "bin": {
+    "gitlab-linter": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asadmansr/gitlab-linter-cli.git"
+  },
+  "keywords": [
+    "gitlab",
+    "cli",
+    "ci",
+    "pipeline",
+    "yml",
+    "linter"
+  ],
+  "author": "Asad Mansoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asadmansr/gitlab-linter-cli/issues"
+  },
+  "homepage": "https://github.com/asadmansr/gitlab-linter-cli#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5"
+  }
+}
