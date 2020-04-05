@@ -28,9 +28,11 @@
   },
   "homepage": "https://github.com/asadmansr/gitlab-linter-cli#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "chalk": "^4.0.0",
     "conf": "^6.2.1",
     "esm": "^3.2.25",
+    "js-yaml": "^3.13.1",
     "minimist": "^1.2.5"
   }
 }

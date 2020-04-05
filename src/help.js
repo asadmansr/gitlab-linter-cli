@@ -7,7 +7,8 @@ ${chalk.black('GitLab Linter CLI (1.0.0) - a linter to validate GitLab CI pipeli
 ${chalk.gray('gitlab-linter [command]')}
 
     ${chalk.blueBright('config')}        ............... set configuration
-    ${chalk.blueBright('help <option>')} ............... show help for a command (-h)
+    ${chalk.blueBright('file')} <file>   ............... specify file to lint
+    ${chalk.blueBright('help')} <option> ............... show help for a command (-h)
     ${chalk.blueBright('version')}       ............... print package version (-v)
     `,
 

@@ -1,0 +1,12 @@
+stages:
+  - build
+  - test
+  - deploy
+
+job0:
+  stage: build
+  script: echo "make something useful before build stage"
+
+job5:
+  stage: test
+  script: echo "make something useful at the end of pipeline"
