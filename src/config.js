@@ -1,5 +1,5 @@
 import Conf from 'conf';
-import { validateHost } from './utils';
+import { validateHost, formatHost } from './utils';
 
 export const configKey = 'gitlab-linter-cli';
 
@@ -27,6 +27,8 @@ export async function config(args) {
     if (!validateHost(host)) {
         return;
     }
+
+    host = formatHost(host);
 
     config.set(configKey, { host: host });
 }
