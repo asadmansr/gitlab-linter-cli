@@ -41,6 +41,6 @@ export function formatHost(host) {
 }
 
 function validateURL(url) {
-    var pattern = new RegExp('https:\/\/gitlab\.?.*\.[a-z]{2,3}', 'i');
+    var pattern = new RegExp('https:\/\/gitlab\.[a-z].*[a-z]{1,3}', 'i');
     return !!pattern.test(url);
 }
